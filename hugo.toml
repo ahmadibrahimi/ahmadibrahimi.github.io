@@ -4,7 +4,8 @@ title = "Ahmad Ibrahim"
 theme = "PaperMod"
 
 [params]
-  defaultTheme = "auto"
+  defaultTheme = "dark"
+  disableThemeToggle = true
   ShowReadingTime = true
 
   [params.homeInfoParams]
