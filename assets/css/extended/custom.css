@@ -25,6 +25,17 @@ body {
   background-attachment: fixed;
 }
 
+/* PaperMod paints a flat colour on list pages (home, blog); put the grid back */
+[data-theme="dark"] .list,
+.list {
+  background-color: #050b17;
+  background-image:
+    linear-gradient(rgba(22,52,95,.35) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(22,52,95,.35) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-attachment: fixed;
+}
+
 /* Thin green line at the very top */
 body::before {
   content: "";
@@ -89,3 +100,40 @@ pre, code { border: 1px solid var(--blue-line); color: var(--green); }
 
 /* Dashed line above the footer */
 .footer { border-top: 1px dashed var(--green-dim); padding-top: 14px; }
+
+
+/* Social buttons (About page) */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}
+
+.post-content a.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  font-size: 0.85rem;
+  color: var(--green);
+  background: var(--entry);
+  border: 1px solid var(--green-dim);
+  border-radius: 4px;
+  box-shadow: none;
+  text-decoration: none;
+  transition: transform .2s, box-shadow .2s, background .2s;
+}
+
+.social-link svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.post-content a.social-link:hover {
+  background: var(--green);
+  color: var(--theme);
+  transform: translateY(-2px);
+  box-shadow: 0 0 14px rgba(0,255,156,.4);
+}

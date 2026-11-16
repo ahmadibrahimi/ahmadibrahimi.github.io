@@ -8,9 +8,14 @@ theme = "PaperMod"
   disableThemeToggle = true
   ShowReadingTime = true
 
-  [params.homeInfoParams]
-    Title = "Hi, I'm Ahmad"
-    Content = "Welcome to my blog and portfolio."
+  [params.profileMode]
+  enabled = true
+  title = "Muhammad Ahmad Ibrahim"
+  subtitle = "Welcome to my blog site"
+  imageUrl = "pillars_of_creation.jpg"
+  imageWidth = 170
+  imageHeight = 170
+  imageTitle = "Ahmad Ibrahim"
 
 [menu]
   [[menu.main]]
