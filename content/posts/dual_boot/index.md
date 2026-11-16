@@ -32,7 +32,7 @@ These checks prevent most of the problems people run into.
 
 📸 *Screenshot: disabling hibernation using cmd*
 
-![powercfg /h off in cmd](hiberate_off.png)
+![turning off hibernation](hibernate.png)
 
 ## Step 1: Make free space for Ubuntu
 
@@ -47,7 +47,7 @@ Leave that space unallocated. Do not format it and do not create a new volume in
 
 📸 *Screenshot: Disk Management showing the unallocated space*
 
-![Disk Management with unallocated space](disk-management.png)
+![Disk Management with unallocated space](disk_management.png)
 
 ## Step 2: Create the bootable USB
 
@@ -100,7 +100,7 @@ Use the arrow keys and `Enter`. If you do nothing, it starts Ubuntu after a few 
 
 📸 *Photo: the GRUB menu on the real laptop*
 
-![GRUB boot menu showing Ubuntu and Windows](grub.jpg)
+![GRUB boot menu showing Ubuntu and Windows](grub.png)
 
 Congratulations, you are now dual booting.
 
@@ -140,7 +140,7 @@ sudo apt install gnome-tweaks gnome-shell-extension-manager
 
 📸 *Screenshot: the final desktop after customising*
 
-![My customised Ubuntu desktop](final-window.png)
+![My customised Ubuntu desktop](final_window.png)
 
 ### 2. Better battery life with TLP
 
