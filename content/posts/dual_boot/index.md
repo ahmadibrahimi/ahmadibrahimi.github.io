@@ -1,6 +1,6 @@
 +++
 date = '2026-11-16T10:30:00+05:00'
-draft = true
+draft = false
 title = 'Dual Booting Ubuntu 26.04 LTS'
 description = 'A step-by-step guide to dual booting Ubuntu alongside Windows, plus how I set up and customised it afterwards.'
 tags = ['linux', 'ubuntu', 'dual-boot', 'windows', 'thinkpad']
