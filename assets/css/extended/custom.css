@@ -19,7 +19,6 @@
 body {
   font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
   background-color: #050b17;
-  font-size:100%;
   /* faint blue grid, like a terminal/blueprint */
   background-image:
     linear-gradient(rgba(22,52,95,.1) 1px, transparent 5px),
