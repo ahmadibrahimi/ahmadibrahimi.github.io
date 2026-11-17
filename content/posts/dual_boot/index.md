@@ -5,6 +5,9 @@ title = 'Dual Booting Ubuntu 26.04 LTS'
 description = 'A step-by-step guide to dual booting Ubuntu alongside Windows, plus how I set up and customised it afterwards.'
 summary = 'A step-by-step guide to dual booting Ubuntu alongside Windows, plus how I set up and customised it afterwards.'
 tags = ['linux', 'ubuntu', 'dual-boot', 'windows', 'thinkpad']
+ShowToc = true
+TocOpen = false
+
 
 [cover]
   image = "ubuntu.jpeg"
@@ -12,6 +15,7 @@ tags = ['linux', 'ubuntu', 'dual-boot', 'windows', 'thinkpad']
   relative = true
   hiddenInSingle = true
 +++
+
 
 I had been thinking about moving from Windows to Linux for a long time, but I never had the confidence to do it. Part of the reason was simple: It has been my OS since childhood.
 

@@ -1,6 +1,6 @@
 :root, .dark {
-  /* --green: #00ff9c; */
-  --green: #fefe09;
+  --green: #00ff9c;
+  /* --green: #fefe09; */
   --green-dim: #00b36e;
   --blue: #0a1a33;
   --blue-line: #16345f;
@@ -65,7 +65,7 @@ body::before {
 h1, h2, h3, .post-title {
   color: var(--green);
   /* text-shadow: 0 0 8px rgba(0,255,156,.35); */
-  text-shadow: 0 0 6px rgba(241, 245, 217, 0.35);
+  text-shadow: 0 0 6px rgba(199, 241, 166, 0.35);
   letter-spacing: .4px;
 }
 
