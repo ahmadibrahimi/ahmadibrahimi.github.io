@@ -5,9 +5,15 @@ title = 'Dual Booting Ubuntu 26.04 LTS'
 description = 'A step-by-step guide to dual booting Ubuntu alongside Windows, plus how I set up and customised it afterwards.'
 summary = 'A step-by-step guide to dual booting Ubuntu alongside Windows, plus how I set up and customised it afterwards.'
 tags = ['linux', 'ubuntu', 'dual-boot', 'windows', 'thinkpad']
+
+[cover]
+  image = "ubuntu.jpeg"
+  alt = "Ubuntu logo"
+  relative = true
+  hiddenInSingle = true
 +++
 
-I had been thinking about moving from Windows to Linux for a long time, but I never had the confidence to do it. Part of the reason was simple: I love Windows. It has been my OS since childhood.
+I had been thinking about moving from Windows to Linux for a long time, but I never had the confidence to do it. Part of the reason was simple: It has been my OS since childhood.
 
 But my field keeps moving toward Linux, and many of my friends had already made the switch. I felt like I was falling behind. So after some deep thinking, I decided to dual boot **Ubuntu 26.04 LTS** next to **Windows 10** on my **ThinkPad X1 Carbon**.
 
