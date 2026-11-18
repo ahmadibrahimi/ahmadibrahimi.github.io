@@ -8,7 +8,8 @@ theme = "PaperMod"
   disableThemeToggle = true
   ShowReadingTime = true
 
-  [params.profileMode]
+
+[params.profileMode]
   enabled = true
   title = "Muhammad Ahmad Ibrahim"
   subtitle = "Welcome to my blog site"

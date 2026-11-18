@@ -142,7 +142,7 @@ pre, code { border: 1px solid var(--blue-line); color: var(--green); }
 }
 
 
-/* Ubuntu logo as a full-card background */
+/* logo as a full-card background */
 .post-entry {
   isolation: isolate;
   overflow: hidden;
@@ -168,4 +168,12 @@ pre, code { border: 1px solid var(--blue-line); color: var(--green); }
   padding: 0;
   background: none;
   border-radius: 0;
+}
+
+/* White border on images inside posts */
+.post-content img {
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  display: block;
+  margin: 20px auto;
 }
