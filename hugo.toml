@@ -6,7 +6,6 @@ theme = "PaperMod"
 [params]
   defaultTheme = "dark"
   disableThemeToggle = true
-  ShowReadingTime = true
 
 
 [params.profileMode]
